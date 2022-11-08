@@ -449,10 +449,10 @@ margin:20px;
 }
 .portfolio .img-container .box:hover img{
     transform: rotate(3deg) scale(1.1);
-    -webkit-transform:;
-    -moz-transform:;
-    -ms-transform:;
-    -o-transform:;
+    -webkit-transform: rotate(3deg) scale(1.1);
+    -moz-transform: rotate(3deg) scale(1.1);
+    -ms-transform: rotate(3deg) scale(1.1);
+    -o-transform: rotate(3deg) scale(1.1);
 }
 .portfolio .box .caption{
     width: 100%;
@@ -487,10 +487,10 @@ margin:20px;
     position: absolute;
     left:50%;
     transform: translateX(-50%);
-    -webkit-transform:;
-    -moz-transform:;
-    -ms-transform:;
-    -o-transform:;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
 }
 /* End portfolio */
 /* Start video */
